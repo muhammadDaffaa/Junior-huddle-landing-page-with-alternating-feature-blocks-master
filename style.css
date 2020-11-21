@@ -625,7 +625,7 @@ header .heading-bar {
     width: 320px;
   }
   .card {
-    bottom: 20%;
+    bottom: 21%;
   }
   .heading-logo > img {
     width: 50%;
@@ -636,5 +636,10 @@ header .heading-bar {
   }
   .content-text > h1 {
     width: 90%;
+    font-size: 25px;
+  }
+  .footer-copy {
+    margin-left: 5%;
+    text-align: center;
   }
 }
