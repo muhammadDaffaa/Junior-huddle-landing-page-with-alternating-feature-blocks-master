@@ -42,17 +42,18 @@ header .heading-bar {
   height: 45px;
   padding: 2%;
   border-radius: 50px;
-  background-color: hsl(322, 100%, 66%);
+  background-color: white;
+
   cursor: pointer;
   transition-duration: 0.4s;
-  color: white;
+  color: black;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
 .heading-button > button:hover {
-  background-color: white;
-  color: black;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
 }
 /* Heading End */
 
@@ -333,11 +334,11 @@ header .heading-bar {
 @media (max-width: 1200px) {
   .card {
     bottom: 21%;
-    left: 7.5%;
+    left: 9%;
   }
 
   .card-content {
-    width: 1020px;
+    width: 850px;
     padding: 3%;
   }
   .footer-logo {
@@ -356,11 +357,11 @@ header .heading-bar {
   }
   .card {
     position: absolute;
-    left: 10%;
+    left: 18%;
     bottom: 20%;
   }
   .card-content {
-    width: 800px;
+    width: 100%;
   }
   .footer-copy {
     margin-top: 7%;
@@ -605,12 +606,35 @@ header .heading-bar {
   .card-content {
     width: 350px;
   }
+  .card {
+    bottom: 20%;
+  }
+  .heading-logo > img {
+    width: 50%;
+  }
+  .heading-button button {
+    width: 100px;
+    font-size: 15px;
+  }
+  .content-text > h1 {
+    width: 90%;
+  }
 }
 @media (max-width: 375px) {
   .card-content {
     width: 320px;
   }
   .card {
-    bottom: 19%;
+    bottom: 20%;
+  }
+  .heading-logo > img {
+    width: 50%;
+  }
+  .heading-button button {
+    width: 100px;
+    font-size: 15px;
+  }
+  .content-text > h1 {
+    width: 90%;
   }
 }
